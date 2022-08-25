@@ -4,7 +4,7 @@ import pytest
 class TestAPI():
     URL = "https://cloud-api.yandex.net/v1/disk/resources"
     headers = {'Content-Type': 'application/json',
-            'Authorization': 'токен'}
+            'Authorization': 'token'}
     params = {"path": "pytest", "overwrite": "true"}
     params_response = {"path": "netology", "overwrite": "true"}
 
